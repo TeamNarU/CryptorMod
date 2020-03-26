@@ -1,0 +1,33 @@
+{
+  "group": "cryptormod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "cryptormod:cyberbullet"
+    },
+    "2": {
+      "item": "cryptormod:radicalworldblock"
+    },
+    "4": {
+      "item": "minecraft:bow"
+    },
+    "6": {
+      "item": "cryptormod:radicalworldblock"
+    },
+    "7": {
+      "item": "minecraft:lever"
+    },
+    "8": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "cryptormod:cybergun",
+    "count": 1
+  }
+}

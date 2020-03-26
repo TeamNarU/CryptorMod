@@ -1,0 +1,17 @@
+{
+  "_fv": 2,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Defeated",
+    "achievementDescription": "Defeat a Bossy Cryptor X",
+    "achievementIcon": {
+      "value": "mcreator_cryptorXSword.block"
+    },
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:cryptormod"
+    },
+    "locx": -10,
+    "locy": -10
+  }
+}

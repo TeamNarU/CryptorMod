@@ -1,0 +1,23 @@
+[
+  {
+    "modid": "cryptormod",
+    "name": "CryptorMod",
+    "description": "This mod adds common Cryptor and deadly Cryptor X and more cool stuff.",
+    "version": "3.0.0",
+    "credits": "Creator and designer - Cryptor Inc.",
+    "logoFile": "",
+    "mcversion": "1.12.2",
+    "url": "https://sites.google.com/view/cryptor-inc",
+    "updateUrl": "",
+    "authorList": [
+      "Cryptor Inc.",
+      "MCreator"
+    ],
+    "dependencies": [
+      "forge@[14.23.5.2768]"
+    ],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

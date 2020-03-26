@@ -1,0 +1,24 @@
+{
+  "group": "cryptormod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "cryptormod:exeblock"
+    },
+    "4": {
+      "item": "cryptormod:exeblock"
+    },
+    "6": {
+      "item": "cryptormod:cryptorxsword"
+    }
+  },
+  "result": {
+    "item": "cryptormod:horsword",
+    "count": 1
+  }
+}

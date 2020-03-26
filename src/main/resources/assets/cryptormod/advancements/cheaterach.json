@@ -1,0 +1,20 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "cryptormod:cheatweapon"
+    },
+    "title": {
+      "translate": "advancements.cheaterach.title"
+    },
+    "description": {
+      "translate": "advancements.cheaterach.descr"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "cheaterach": {
+      "trigger": "cheaterach"
+    }
+  }
+}

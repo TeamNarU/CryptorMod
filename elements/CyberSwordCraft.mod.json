@@ -1,0 +1,48 @@
+{
+  "_fv": 2,
+  "_type": "recipe",
+  "definition": {
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "mcreator_cyberSword.block"
+    },
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "mcreator_radicalWorldBlock.block"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "mcreator_cyberBullet.block"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DIAMOND_SWORD"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "smeltingInputStack": {
+      "value": ""
+    },
+    "smeltingReturnStack": {
+      "value": ""
+    },
+    "smeltingXPReward": 1.0,
+    "smeltingRetstackSize": 1
+  }
+}

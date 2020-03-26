@@ -1,0 +1,202 @@
+{
+  "id_map": {
+    "ENTITY": 8
+  },
+  "mod_elements": [
+    {
+      "name": "CryptorsSoul",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CryptorsSoulItemInHandTick",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModTab",
+      "type": "tab",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CryptorXArmor",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "LegendaryFood",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LegendaryFoodFoodEaten",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CryptorXSword",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DefBlock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CDimension",
+      "type": "biome",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CryptorX",
+      "type": "mob",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 5,
+        "1": 6
+      }
+    },
+    {
+      "name": "CommonCryptor",
+      "type": "mob",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 7,
+        "1": 8
+      }
+    },
+    {
+      "name": "CyberBlock",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CryptorCoin",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SuperTool",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "ru_ru": {
+      "entity.commoncryptor.name": "Common Cryptor",
+      "item.legendaryfood.name": "Legendary Food",
+      "tile.defblock.name": "Block of C. Dimension",
+      "item.cryptorssoul.name": "Cryptor\u0027s Soul",
+      "item.cryptorxarmorlegs.name": "Cryptor X Armor Leggings",
+      "item.cryptorxarmorhelmet.name": "Cryptor X Armor Helmet",
+      "entity.cryptorx.name": "Cryptor X",
+      "item.cryptorxarmorboots.name": "Cryptor X Armor Boots",
+      "item.supertool.name": "Super Tool",
+      "itemGroup.tabmodtab": "Mod Tab",
+      "item.cryptorcoin.name": "CryptorCoin",
+      "item.cryptorxarmorbody.name": "Cryptor X Armor Body",
+      "item.cryptorxsword.name": "Cryptor X\u0027s Sword",
+      "tile.cyberblock.name": "Cyber Block"
+    },
+    "en_us": {
+      "entity.commoncryptor.name": "Common Cryptor",
+      "item.legendaryfood.name": "Legendary Food",
+      "tile.defblock.name": "Block of C. Dimension",
+      "item.cryptorssoul.name": "Cryptor\u0027s Soul",
+      "item.cryptorxarmorlegs.name": "Cryptor X Armor Leggings",
+      "item.cryptorxarmorhelmet.name": "Cryptor X Armor Helmet",
+      "entity.cryptorx.name": "Cryptor X",
+      "item.cryptorxarmorboots.name": "Cryptor X Armor Boots",
+      "item.supertool.name": "Super Tool",
+      "itemGroup.tabmodtab": "Mod Tab",
+      "item.cryptorcoin.name": "CryptorCoin",
+      "item.cryptorxarmorbody.name": "Cryptor X Armor Body",
+      "item.cryptorxsword.name": "Cryptor X\u0027s Sword",
+      "tile.cyberblock.name": "Cyber Block"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "cryptormod",
+    "modName": "CryptorMod",
+    "version": "3.0.0",
+    "description": "This mod adds common Cryptor and deadly Cryptor X and more cool stuff.",
+    "author": "Cryptor Inc.",
+    "websiteURL": "https://sites.google.com/view/cryptor-inc",
+    "disableForgeVersionCheck": false,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "credits": "Creator and designer - Cryptor Inc.",
+    "modElementsPackage": "com.cryptorinc.cryptormod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000213314
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 2,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "CryptorMod",
+    "achievementDescription": "Thanks for installing!",
+    "achievementIcon": {
+      "value": "mcreator_cryptorXSpawn.block"
+    },
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "locx": 0,
+    "locy": 0
+  }
+}

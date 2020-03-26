@@ -1,0 +1,21 @@
+{
+  "_fv": 2,
+  "_type": "food",
+  "definition": {
+    "texture": "legendaryfood",
+    "name": "LegendaryFood",
+    "creativeTab": {
+      "value": "mcreator_cryptorModTab.tab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 20,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "hasPotionEffect": true,
+    "isAlwaysEdible": false,
+    "potionEffect": {
+      "value": "REGENERATION"
+    },
+    "animation": "eat"
+  }
+}

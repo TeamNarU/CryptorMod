@@ -1,0 +1,48 @@
+{
+  "_fv": 2,
+  "_type": "recipe",
+  "definition": {
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "mcreator_horSword.block"
+    },
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "mcreator_exeBlock.block"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "mcreator_exeBlock.block"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "mcreator_cryptorXSword.block"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "smeltingInputStack": {
+      "value": ""
+    },
+    "smeltingReturnStack": {
+      "value": ""
+    },
+    "smeltingXPReward": 1.0,
+    "smeltingRetstackSize": 1
+  }
+}

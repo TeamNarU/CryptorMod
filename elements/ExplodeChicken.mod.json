@@ -1,0 +1,98 @@
+{
+  "_fv": 2,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Explodable Chicken",
+    "mobLabel": "",
+    "mobModelTexture": "explodablechicken.png",
+    "mobModelName": "Chicken",
+    "modelWidth": 0.4,
+    "modelHeight": 0.7,
+    "modelShadowSize": 0.5,
+    "hasSpawnEgg": false,
+    "spawnEggBaseColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
+    "movementSpeed": 0.3,
+    "health": 10,
+    "immuneToFire": false,
+    "xpAmount": 0,
+    "ridable": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "rareDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "entity.chicken.ambient"
+    },
+    "hurtSound": {
+      "value": "entity.chicken.hurt"
+    },
+    "deathSound": {
+      "value": "entity.chicken.death"
+    },
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "whenMobDies": {
+      "name": "ExplodeChickenMobDies"
+    },
+    "whenMobIsHurt": {
+      "name": "ExplodeChickenMobIsHurt"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "\u003cxml xmlns\u003d\"http://www.w3.org/1999/xhtml\"\u003e\u003cblock type\u003d\"aitasks_container\" deletable\u003d\"false\" x\u003d\"40\" y\u003d\"40\"\u003e\u003cnext\u003e\u003cblock type\u003d\"wander\"\u003e\u003cfield name\u003d\"speed\"\u003e1\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"look_around\"\u003e\u003cnext\u003e\u003cblock type\u003d\"swim_in_water\"\u003e\u003cnext\u003e\u003cblock type\u003d\"leap_at_target\"\u003e\u003cfield name\u003d\"speed\"\u003e0.8\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"panic_when_attacked\"\u003e\u003cfield name\u003d\"speed\"\u003e1.2\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"attack_action\"\u003e\u003cfield name\u003d\"callhelp\"\u003eFALSE\u003c/field\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/xml\u003e",
+    "breedable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 3,
+    "maxNumberOfMobsPerGroup": 30,
+    "restricSpawnPerBiome": false,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}

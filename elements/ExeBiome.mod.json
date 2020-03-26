@@ -1,0 +1,66 @@
+{
+  "_fv": 2,
+  "_type": "biome",
+  "definition": {
+    "groundBlock": {
+      "value": "mcreator_exeBlock.block"
+    },
+    "undergroundBlock": {
+      "value": "mcreator_exeBlock.block"
+    },
+    "generateLakes": true,
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "treeStructure": "(no schematic)",
+    "minHeight": 5,
+    "spawnVines": false,
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeStem": {
+      "value": "Blocks.MOB_SPAWNER"
+    },
+    "treeBranch": {
+      "value": "Blocks.NETHERRACK"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "customColors": false,
+    "airColor": {
+      "value": -1275068416,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -1560281088,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -1459617792,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 3,
+    "grassPerChunk": 10,
+    "flowersPerChunk": 10,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "deadBushesPerChunk": 0,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": false,
+    "biomeWeight": 10,
+    "biomeType": "WARM",
+    "entityListSpawnType": 2,
+    "spawnList": [
+      {
+        "value": "mcreator_horrorCryptor.EntityhorrorCryptor"
+      }
+    ]
+  }
+}

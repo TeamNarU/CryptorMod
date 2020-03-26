@@ -1,0 +1,17 @@
+{
+  "_fv": 2,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "You IDIOT! You are hacker!!!1!1!",
+    "achievementDescription": "You found an error! Please talk to the developers! They addsa more ways to find any errors.",
+    "achievementIcon": {
+      "value": "Blocks.COMMAND_BLOCK"
+    },
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:cryptormod"
+    },
+    "locx": -10,
+    "locy": 10
+  }
+}

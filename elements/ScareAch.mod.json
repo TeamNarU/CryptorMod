@@ -1,0 +1,17 @@
+{
+  "_fv": 2,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Scaring Scare",
+    "achievementDescription": "You did scared by worst creation.",
+    "achievementIcon": {
+      "value": "mcreator_exeBlock.block"
+    },
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "locx": 25,
+    "locy": 35
+  }
+}

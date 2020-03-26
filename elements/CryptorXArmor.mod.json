@@ -1,0 +1,47 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "cryptorxarmor_head",
+    "enableBody": true,
+    "textureBody": "cryptorxarmor_body",
+    "enableLeggings": true,
+    "textureLeggings": "cryptorxarmor_leggings",
+    "enableBoots": true,
+    "textureBoots": "cryptorxarmor_boots",
+    "creativeTab": {
+      "value": "CUSTOM:ModTab"
+    },
+    "armorTextureFile": "cryptorxarmor",
+    "helmetName": "Cryptor X Armor Helmet",
+    "bodyName": "Cryptor X Armor Body",
+    "leggingsName": "Cryptor X Armor Leggings",
+    "bootsName": "Cryptor X Armor Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 999,
+    "damageValueHelmet": 30,
+    "damageValueBody": 40,
+    "damageValueLeggings": 35,
+    "damageValueBoots": 25,
+    "enchantability": 9,
+    "toughness": 5.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

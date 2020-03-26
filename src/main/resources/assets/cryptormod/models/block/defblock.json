@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cryptormod:blocks/cryptorblock",
+    "up": "cryptormod:blocks/cryptorblock",
+    "north": "cryptormod:blocks/cryptorblock",
+    "east": "cryptormod:blocks/cryptorblock",
+    "south": "cryptormod:blocks/cryptorblock",
+    "west": "cryptormod:blocks/cryptorblock",
+    "particle": "cryptormod:blocks/cryptorblock"
+  }
+}

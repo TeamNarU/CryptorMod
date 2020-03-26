@@ -1,0 +1,17 @@
+{
+  "_fv": 2,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "A power of Cyber",
+    "achievementDescription": "Kill Common Cryptor using Cyber Sword",
+    "achievementIcon": {
+      "value": "mcreator_cyberSword.block"
+    },
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:cryptormod"
+    },
+    "locx": 10,
+    "locy": 10
+  }
+}

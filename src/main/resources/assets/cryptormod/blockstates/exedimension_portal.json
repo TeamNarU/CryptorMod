@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "cryptormod:exedimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "cryptormod:exedimension_portal_ns"
+    },
+    "inventory": {
+      "model": "cryptormod:exedimension_portal_ns"
+    }
+  }
+}

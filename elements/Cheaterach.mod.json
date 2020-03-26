@@ -1,0 +1,17 @@
+{
+  "_fv": 2,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "CHEATEEEEEEER!!!",
+    "achievementDescription": "You feel undying because you kill anyone.",
+    "achievementIcon": {
+      "value": "mcreator_cheatWeapon.block"
+    },
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "locx": 0,
+    "locy": 0
+  }
+}

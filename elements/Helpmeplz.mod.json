@@ -1,0 +1,11 @@
+{
+  "_fv": 2,
+  "_type": "command",
+  "definition": {
+    "commandName": "help_me_plz",
+    "commandDescription": "",
+    "onCommandExecuted": {
+      "name": "HelpmeplzCommandExecuted"
+    }
+  }
+}

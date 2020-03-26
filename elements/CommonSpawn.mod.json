@@ -1,0 +1,27 @@
+{
+  "_fv": 0,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "cryptorxspawnegg",
+    "customModelName": "Normal",
+    "name": "Spawn Common Cryptor",
+    "creativeTab": {
+      "value": "mcreator_cryptorModTab.tab"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 1,
+    "toolType": 1.0,
+    "damageCount": 1,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "canBeDroppedAsGrassSeed": false,
+    "droppedAsGrassSeedProbability": 5,
+    "specialInfo": [],
+    "hasGlow": false,
+    "onRightClickedOnBlock": {
+      "name": "CommonSpawnRightClickedOnBlock"
+    }
+  }
+}

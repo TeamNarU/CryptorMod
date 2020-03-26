@@ -1,0 +1,96 @@
+{
+  "_fv": 2,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Cyber Cryptor",
+    "mobLabel": "",
+    "mobModelTexture": "cyber cryptor.png",
+    "mobModelName": "Biped",
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "hasSpawnEgg": false,
+    "spawnEggBaseColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": "mcreator_cyberGun.block"
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 9999,
+    "movementSpeed": 0.3,
+    "health": 10000,
+    "immuneToFire": true,
+    "xpAmount": 10000,
+    "ridable": false,
+    "mobDrop": {
+      "value": "mcreator_cyberBullet.block"
+    },
+    "rareDrop": {
+      "value": "mcreator_cyberGun.block"
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "game.neutral.hurt"
+    },
+    "deathSound": {
+      "value": "game.neutral.die"
+    },
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "\u003cxml xmlns\u003d\"http://www.w3.org/1999/xhtml\"\u003e\u003cblock type\u003d\"aitasks_container\" deletable\u003d\"false\" x\u003d\"40\" y\u003d\"40\"\u003e\u003cnext\u003e\u003cblock type\u003d\"attack_entity\"\u003e\u003cfield name\u003d\"insight\"\u003eTRUE\u003c/field\u003e\u003cfield name\u003d\"nearby\"\u003eTRUE\u003c/field\u003e\u003cfield name\u003d\"entity\"\u003eEntityPlayer\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"attack_on_collide\"\u003e\u003cfield name\u003d\"speed\"\u003e1.2\u003c/field\u003e\u003cfield name\u003d\"longmemory\"\u003eFALSE\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"attack_action\"\u003e\u003cfield name\u003d\"callhelp\"\u003eTRUE\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"doors_break\"\u003e\u003cnext\u003e\u003cblock type\u003d\"wander\"\u003e\u003cfield name\u003d\"speed\"\u003e1\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"look_around\"\u003e\u003cnext\u003e\u003cblock type\u003d\"swim_in_water\"\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/xml\u003e",
+    "breedable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 3,
+    "restricSpawnPerBiome": true,
+    "restrictionBiomes": [
+      {
+        "value": "mcreator_radicalBiome.biome"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

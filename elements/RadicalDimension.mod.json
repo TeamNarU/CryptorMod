@@ -1,0 +1,50 @@
+{
+  "_fv": 2,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "mcreator_cryptorBlock.block"
+    },
+    "portalParticles": {
+      "value": "SPELL"
+    },
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Radical Activator",
+    "igniterTab": {
+      "value": "mcreator_cryptorModTab.tab"
+    },
+    "texture": "radicalactivator",
+    "portalTexture": "igniterportal",
+    "biomesInDimension": [
+      {
+        "value": "mcreator_radicalBiome.biome"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "mcreator_radicalWorldBlock.block"
+    },
+    "secondaryFillerBlock": {
+      "value": "mcreator_radicalWorldBlock.block"
+    },
+    "tertiaryFillerBlock": {
+      "value": ""
+    },
+    "fluidBlock": {
+      "value": "mcreator_radicalWorldBlock.block"
+    },
+    "oreBlock": {
+      "value": "mcreator_radicalWorldBlock.block"
+    },
+    "airColor": {
+      "value": -3407668,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "hasWeather": false
+  }
+}

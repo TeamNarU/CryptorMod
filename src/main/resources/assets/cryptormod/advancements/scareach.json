@@ -1,0 +1,20 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "cryptormod:exeblock"
+    },
+    "title": {
+      "translate": "advancements.scareach.title"
+    },
+    "description": {
+      "translate": "advancements.scareach.descr"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "scareach": {
+      "trigger": "scareach"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 2,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "ERROR: FILE DELETED!",
+    "achievementDescription": "C:\\Users\\User\\AppData\\Roaming\\.minecraft\\CryptorModError.ini",
+    "achievementIcon": {
+      "value": "Items.COMMAND_BLOCK_MINECART"
+    },
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "locx": 25,
+    "locy": 0
+  }
+}

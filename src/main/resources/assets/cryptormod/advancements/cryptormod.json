@@ -1,0 +1,20 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "cryptormod:cryptorxspawn"
+    },
+    "title": {
+      "translate": "advancements.cryptormod.title"
+    },
+    "description": {
+      "translate": "advancements.cryptormod.descr"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "cryptormod": {
+      "trigger": "cryptormod"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:command_block"
+    },
+    "title": {
+      "translate": "advancements.easteregg.title"
+    },
+    "description": {
+      "translate": "advancements.easteregg.descr"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "easteregg": {
+      "trigger": "easteregg"
+    }
+  },
+  "parent": "cryptormod:cryptormod"
+}

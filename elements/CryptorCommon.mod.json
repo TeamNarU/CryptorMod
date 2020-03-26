@@ -1,0 +1,99 @@
+{
+  "_fv": 2,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Cryptor",
+    "mobLabel": "",
+    "mobModelTexture": "wannacryptor.png",
+    "mobModelName": "Biped",
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 2.0,
+    "hasSpawnEgg": false,
+    "spawnEggBaseColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 5,
+    "movementSpeed": 0.3,
+    "health": 100,
+    "immuneToFire": false,
+    "xpAmount": 0,
+    "ridable": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "rareDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "game.neutral.hurt"
+    },
+    "deathSound": {
+      "value": "game.neutral.die"
+    },
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "whenMobDies": {
+      "name": "CryptorCommonMobDies"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "\u003cxml xmlns\u003d\"http://www.w3.org/1999/xhtml\"\u003e\u003cblock type\u003d\"aitasks_container\" deletable\u003d\"false\" x\u003d\"40\" y\u003d\"40\"\u003e\u003cnext\u003e\u003cblock type\u003d\"wander\"\u003e\u003cfield name\u003d\"speed\"\u003e1\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"look_around\"\u003e\u003cnext\u003e\u003cblock type\u003d\"swim_in_water\"\u003e\u003cnext\u003e\u003cblock type\u003d\"leap_at_target\"\u003e\u003cfield name\u003d\"speed\"\u003e0.8\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"attack_action\"\u003e\u003cfield name\u003d\"callhelp\"\u003eTRUE\u003c/field\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/xml\u003e",
+    "breedable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 3,
+    "restricSpawnPerBiome": true,
+    "restrictionBiomes": [
+      {
+        "value": "mcreator_cryptorFightBiome.biome"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

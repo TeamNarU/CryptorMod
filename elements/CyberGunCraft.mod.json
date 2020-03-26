@@ -1,0 +1,48 @@
+{
+  "_fv": 2,
+  "_type": "recipe",
+  "definition": {
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "mcreator_cyberGun.block"
+    },
+    "recipeSlots": [
+      {
+        "value": "mcreator_cyberBullet.block"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "mcreator_radicalWorldBlock.block"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BOW"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "mcreator_radicalWorldBlock.block"
+      },
+      {
+        "value": "Blocks.LEVER"
+      },
+      {
+        "value": "Items.STICK"
+      }
+    ],
+    "smeltingInputStack": {
+      "value": ""
+    },
+    "smeltingReturnStack": {
+      "value": ""
+    },
+    "smeltingXPReward": 1.0,
+    "smeltingRetstackSize": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "cryptormod:cybersword"
+    },
+    "title": {
+      "translate": "advancements.powerofcyber.title"
+    },
+    "description": {
+      "translate": "advancements.powerofcyber.descr"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "powerofcyber": {
+      "trigger": "powerofcyber"
+    }
+  },
+  "parent": "cryptormod:cryptormod"
+}

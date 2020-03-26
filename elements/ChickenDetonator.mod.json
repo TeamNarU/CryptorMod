@@ -1,0 +1,32 @@
+{
+  "_fv": 2,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "detonator",
+    "customModelName": "Normal",
+    "name": "Chicken Detonator",
+    "creativeTab": {
+      "value": "mcreator_cryptorModTab.tab"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 1,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "canBeDroppedAsGrassSeed": false,
+    "droppedAsGrassSeedProbability": 5,
+    "specialInfo": [
+      "Explodes all explodable chickens\\in distance of 30 blocks.\\WARNING! You should be far of chickens."
+    ],
+    "hasGlow": false,
+    "onRightClickedInAir": {
+      "name": "ChickenDetonatorRightClickedInAir"
+    },
+    "onRightClickedOnBlock": {
+      "name": "ChickenDetonatorRightClickedOnBlock"
+    }
+  }
+}

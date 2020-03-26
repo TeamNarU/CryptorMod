@@ -1,0 +1,20 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "minecraft:command_block_minecart"
+    },
+    "title": {
+      "translate": "advancements.errorach.title"
+    },
+    "description": {
+      "translate": "advancements.errorach.descr"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "errorach": {
+      "trigger": "errorach"
+    }
+  }
+}

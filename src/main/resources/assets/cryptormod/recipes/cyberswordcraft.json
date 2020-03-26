@@ -1,0 +1,24 @@
+{
+  "group": "cryptormod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "cryptormod:radicalworldblock"
+    },
+    "1": {
+      "item": "cryptormod:cyberbullet"
+    },
+    "2": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "result": {
+    "item": "cryptormod:cybersword",
+    "count": 1
+  }
+}

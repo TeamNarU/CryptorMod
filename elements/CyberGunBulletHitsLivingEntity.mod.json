@@ -1,0 +1,7 @@
+{
+  "_fv": 2,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "\u003cxml xmlns\u003d\"http://www.w3.org/1999/xhtml\"\u003e\u003cblock type\u003d\"event_trigger\" deletable\u003d\"false\" x\u003d\"40\" y\u003d\"40\"\u003e\u003cfield name\u003d\"trigger\"\u003eNo additional trigger\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"entity_add_potion_advanced\"\u003e\u003cfield name\u003d\"potion\"\u003eWITHER\u003c/field\u003e\u003cvalue name\u003d\"level\"\u003e\u003cblock type\u003d\"math_number\"\u003e\u003cfield name\u003d\"NUM\"\u003e228\u003c/field\u003e\u003c/block\u003e\u003c/value\u003e\u003cvalue name\u003d\"duration\"\u003e\u003cblock type\u003d\"math_number\"\u003e\u003cfield name\u003d\"NUM\"\u003e60\u003c/field\u003e\u003c/block\u003e\u003c/value\u003e\u003cvalue name\u003d\"ambient\"\u003e\u003cblock type\u003d\"logic_boolean\"\u003e\u003cfield name\u003d\"BOOL\"\u003eTRUE\u003c/field\u003e\u003c/block\u003e\u003c/value\u003e\u003cvalue name\u003d\"particles\"\u003e\u003cblock type\u003d\"logic_boolean\"\u003e\u003cfield name\u003d\"BOOL\"\u003eFALSE\u003c/field\u003e\u003c/block\u003e\u003c/value\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/xml\u003e"
+  }
+}

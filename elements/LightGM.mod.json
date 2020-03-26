@@ -1,0 +1,7 @@
+{
+  "_fv": 0,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "\u003cxml xmlns\u003d\"http://www.w3.org/1999/xhtml\"\u003e\u003cblock type\u003d\"event_trigger\" deletable\u003d\"false\" x\u003d\"47\" y\u003d\"16\"\u003e\u003cfield name\u003d\"trigger\"\u003eNo additional trigger\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"entity_set_gamemode\"\u003e\u003cfield name\u003d\"gamemode\"\u003eADVENTURE\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"text_print\"\u003e\u003cvalue name\u003d\"TEXT\"\u003e\u003cblock type\u003d\"text\"\u003e\u003cfield name\u003d\"TEXT\"\u003eYou IDIOT!\u003c/field\u003e\u003c/block\u003e\u003c/value\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/xml\u003e"
+  }
+}

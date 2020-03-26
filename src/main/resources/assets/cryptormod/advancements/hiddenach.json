@@ -1,0 +1,20 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "minecraft:redstone_block"
+    },
+    "title": {
+      "translate": "advancements.hiddenach.title"
+    },
+    "description": {
+      "translate": "advancements.hiddenach.descr"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "hiddenach": {
+      "trigger": "hiddenach"
+    }
+  }
+}

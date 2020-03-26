@@ -1,0 +1,66 @@
+{
+  "_fv": 2,
+  "_type": "biome",
+  "definition": {
+    "groundBlock": {
+      "value": "mcreator_radicalWorldBlock.block"
+    },
+    "undergroundBlock": {
+      "value": "mcreator_radicalWorldBlock.block"
+    },
+    "generateLakes": false,
+    "treeType": 0,
+    "vanillaTreeType": "Big trees",
+    "treeStructure": "(no schematic)",
+    "minHeight": 7,
+    "spawnVines": false,
+    "treeVines": {
+      "value": ""
+    },
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "customColors": false,
+    "airColor": {
+      "value": -52225,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -52225,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 3,
+    "grassPerChunk": 10,
+    "flowersPerChunk": 10,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "deadBushesPerChunk": 0,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": false,
+    "biomeWeight": 10,
+    "biomeType": "WARM",
+    "entityListSpawnType": 2,
+    "spawnList": [
+      {
+        "value": "mcreator_cyberCryptor.EntitycyberCryptor"
+      }
+    ]
+  }
+}

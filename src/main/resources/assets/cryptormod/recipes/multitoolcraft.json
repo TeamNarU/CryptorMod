@@ -1,0 +1,30 @@
+{
+  "group": "cryptormod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "1": {
+      "item": "minecraft:iron_axe"
+    },
+    "2": {
+      "item": "minecraft:iron_axe"
+    },
+    "4": {
+      "item": "minecraft:emerald"
+    },
+    "7": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "cryptormod:supertool",
+    "count": 1
+  }
+}

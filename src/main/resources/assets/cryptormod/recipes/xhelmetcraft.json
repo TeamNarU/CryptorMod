@@ -1,0 +1,29 @@
+{
+  "group": "cryptormod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "cryptormod:cryptorblock"
+    },
+    "1": {
+      "item": "cryptormod:cryptorblock"
+    },
+    "2": {
+      "item": "cryptormod:cryptorblock"
+    },
+    "3": {
+      "item": "cryptormod:cryptorblock"
+    },
+    "5": {
+      "item": "cryptormod:cryptorblock"
+    }
+  },
+  "result": {
+    "item": "cryptormod:cryptorxarmorhelmet",
+    "count": 1
+  }
+}

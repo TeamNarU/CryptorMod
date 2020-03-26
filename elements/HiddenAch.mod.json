@@ -1,0 +1,17 @@
+{
+  "_fv": 2,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "You hacked!",
+    "achievementDescription": "Hackers will make you useful! [ \u0027*v*\u0027 ]",
+    "achievementIcon": {
+      "value": "Blocks.REDSTONE_BLOCK"
+    },
+    "achievementType": "challenge",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "locx": 30,
+    "locy": 30
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 2,
+  "_type": "command",
+  "definition": {
+    "commandName": "error-error-lol-error-error-lol",
+    "commandDescription": "",
+    "onCommandExecuted": {
+      "name": "ERRORCommandExecuted"
+    }
+  }
+}

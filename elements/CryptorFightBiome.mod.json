@@ -1,0 +1,62 @@
+{
+  "_fv": 2,
+  "_type": "biome",
+  "definition": {
+    "groundBlock": {
+      "value": "mcreator_cryptorBlock.block"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIAMOND_BLOCK"
+    },
+    "generateLakes": true,
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "treeStructure": "(no schematic)",
+    "minHeight": 7,
+    "spawnVines": false,
+    "treeVines": {
+      "value": "Blocks.VINE"
+    },
+    "treeStem": {
+      "value": "Blocks.REDSTONE_BLOCK"
+    },
+    "treeBranch": {
+      "value": "Blocks.LIT_REDSTONE_LAMP"
+    },
+    "treeFruits": {
+      "value": "Blocks.REDSTONE_TORCH"
+    },
+    "customColors": false,
+    "airColor": {
+      "value": -52429,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -65536,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 1,
+    "grassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "deadBushesPerChunk": 0,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": true,
+    "biomeWeight": 10,
+    "biomeType": "WARM",
+    "entityListSpawnType": 2,
+    "spawnList": []
+  }
+}
