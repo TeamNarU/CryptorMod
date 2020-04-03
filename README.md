@@ -51,4 +51,5 @@ https://sites.google.com/view/cryptor-inc/mods/cryptormod
 P. S. In this repository a 1.9.8.1 source code. 
 
 (c) CryptorMod, Cryptor, a "W with C in the top" logo are a property of Cryptor Inc and secured with copyright laws. 
+
 <c> 2014-202X Cryptor Inc.
