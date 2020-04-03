@@ -37,12 +37,13 @@ ChangeLog:
 - Added a new item
 
 --2.2.0
--A halloween Update
+- A halloween Update
+- Added a new fuel (at 3.0.0 it was removed)
 
 --3.0.0
--Added Bacterian and Horror Cryptors
--Added a new dimension
--Added a new sword
+- Added Bacterian and Horror Cryptors
+- Added a new dimension
+- Added a new sword
 
 Link for download:
 https://sites.google.com/view/cryptor-inc/mods/cryptormod
