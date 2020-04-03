@@ -1,22 +1,26 @@
 {
-  "_fv": 2,
+  "_fv": 6,
   "_type": "mob",
   "definition": {
     "mobName": "Bacterian",
     "mobLabel": "",
     "mobModelTexture": "bacterian.png",
     "mobModelName": "Biped",
-    "modelWidth": 1.0,
-    "modelHeight": 2.0,
-    "modelShadowSize": 0.1,
-    "hasSpawnEgg": false,
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "armorBaseValue": 0.0,
+    "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -1,
+      "value": -13369549,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -1,
+      "value": -16751104,
       "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:ModTab"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -42,25 +46,35 @@
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 1,
-    "movementSpeed": 0.0,
-    "health": 15,
-    "immuneToFire": false,
+    "movementSpeed": 0.3,
+    "trackingRange": 16,
+    "health": 10,
     "xpAmount": 0,
+    "waterMob": false,
+    "flyingMob": false,
+    "disableCollisions": false,
     "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
     "mobDrop": {
-      "value": ""
-    },
-    "rareDrop": {
-      "value": ""
+      "value": "CUSTOM:CryptorCoin"
     },
     "livingSound": {
       "value": ""
     },
     "hurtSound": {
-      "value": "game.neutral.hurt"
+      "value": "entity.generic.hurt"
     },
     "deathSound": {
-      "value": "game.neutral.die"
+      "value": "entity.generic.death"
     },
     "spawnParticles": false,
     "particleToSpawn": {
@@ -71,11 +85,11 @@
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
     "whenMobDies": {
-      "name": "BacterianMobDies"
+      "name": "BacterianEntityDies"
     },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "\u003cxml xmlns\u003d\"http://www.w3.org/1999/xhtml\"\u003e\u003cblock type\u003d\"aitasks_container\" deletable\u003d\"false\" x\u003d\"40\" y\u003d\"40\"\u003e\u003cnext\u003e\u003cblock type\u003d\"wander\"\u003e\u003cfield name\u003d\"speed\"\u003e1\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"look_around\"\u003e\u003cnext\u003e\u003cblock type\u003d\"swim_in_water\"\u003e\u003cnext\u003e\u003cblock type\u003d\"leap_at_target\"\u003e\u003cfield name\u003d\"speed\"\u003e0.8\u003c/field\u003e\u003cnext\u003e\u003cblock type\u003d\"attack_action\"\u003e\u003cfield name\u003d\"callhelp\"\u003eTRUE\u003c/field\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/next\u003e\u003c/block\u003e\u003c/xml\u003e",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.8</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "breedTriggerItems": [],
     "ranged": false,
@@ -88,7 +102,6 @@
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 3,
     "maxNumberOfMobsPerGroup": 30,
-    "restricSpawnPerBiome": false,
     "restrictionBiomes": [],
     "spawnInDungeons": false
   }

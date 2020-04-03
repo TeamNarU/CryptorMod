@@ -1,0 +1,36 @@
+{
+  "group": "cryptormod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "cryptormod:xingot"
+    },
+    "1": {
+      "item": "cryptormod:xingot"
+    },
+    "2": {
+      "item": "cryptormod:xingot"
+    },
+    "3": {
+      "item": "cryptormod:xingot"
+    },
+    "5": {
+      "item": "cryptormod:xingot"
+    },
+    "6": {
+      "item": "cryptormod:xingot"
+    },
+    "8": {
+      "item": "cryptormod:xingot"
+    }
+  },
+  "result": {
+    "item": "cryptormod:cryptorxarmorlegs",
+    "count": 1
+  }
+}

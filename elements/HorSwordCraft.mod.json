@@ -1,12 +1,12 @@
 {
-  "_fv": 2,
+  "_fv": 6,
   "_type": "recipe",
   "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
     "recipeRetstackSize": 1,
+    "group": "",
     "recipeShapeless": false,
-    "recipeReturnStack": {
-      "value": "mcreator_horSword.block"
-    },
     "recipeSlots": [
       {
         "value": ""
@@ -15,19 +15,19 @@
         "value": ""
       },
       {
-        "value": "mcreator_exeBlock.block"
+        "value": "CUSTOM:HorrorIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "mcreator_exeBlock.block"
+        "value": "CUSTOM:HorrorIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "mcreator_cryptorXSword.block"
+        "value": "CUSTOM:CyberSword"
       },
       {
         "value": ""
@@ -36,13 +36,10 @@
         "value": ""
       }
     ],
-    "smeltingInputStack": {
-      "value": ""
+    "recipeReturnStack": {
+      "value": "CUSTOM:HorSword"
     },
-    "smeltingReturnStack": {
-      "value": ""
-    },
-    "smeltingXPReward": 1.0,
-    "smeltingRetstackSize": 1
+    "name": "horswordcraft",
+    "namespace": "mod"
   }
 }

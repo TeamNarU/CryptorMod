@@ -1,12 +1,12 @@
 {
-  "_fv": 2,
+  "_fv": 6,
   "_type": "recipe",
   "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
     "recipeRetstackSize": 1,
+    "group": "",
     "recipeShapeless": false,
-    "recipeReturnStack": {
-      "value": "mcreator_chickenDetonator.block"
-    },
     "recipeSlots": [
       {
         "value": ""
@@ -36,13 +36,10 @@
         "value": "Items.IRON_INGOT"
       }
     ],
-    "smeltingInputStack": {
-      "value": ""
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChickenDetonator"
     },
-    "smeltingReturnStack": {
-      "value": ""
-    },
-    "smeltingXPReward": 1.0,
-    "smeltingRetstackSize": 1
+    "name": "detoncraft",
+    "namespace": "mod"
   }
 }

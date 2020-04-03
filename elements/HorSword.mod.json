@@ -1,27 +1,30 @@
 {
-  "_fv": 2,
-  "_type": "item",
+  "_fv": 6,
+  "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "horsword",
     "customModelName": "Normal",
-    "name": "Spooky Stick",
+    "name": "Horror Sword",
     "creativeTab": {
-      "value": "mcreator_cryptorModTab.tab"
+      "value": "CUSTOM:ModTab"
     },
-    "stackSize": 1,
-    "enchantability": 0,
-    "useDuration": 0,
-    "toolType": 1.0,
-    "damageCount": 0,
-    "destroyAnyBlock": false,
-    "stayInGridWhenCrafting": false,
-    "canBeDroppedAsGrassSeed": false,
-    "droppedAsGrassSeedProbability": 5,
-    "specialInfo": [],
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 35.0,
+    "usageCount": 100,
+    "blocksAffected": [],
     "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Exeblock"
+      }
+    ],
     "onEntityHitWith": {
-      "name": "HorSwordMobIsHitWithItem"
+      "name": "HorSwordMobIsHitWithTool"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 2,
+  "_fv": 6,
   "_type": "gun",
   "definition": {
     "renderType": 0,
@@ -7,29 +7,29 @@
     "customModelName": "Normal",
     "name": "Cyber Gun",
     "creativeTab": {
-      "value": "mcreator_cryptorModTab.tab"
+      "value": "CUSTOM:ModTab"
     },
     "stackSize": 1,
     "ammoItem": {
-      "value": "mcreator_cyberBullet.block"
+      "value": "CUSTOM:CyberBullet"
     },
-    "shootConstantly": true,
+    "shootConstantly": false,
     "usageCount": 100000,
     "actionSound": {
-      "value": "entity.arrow.shoot"
+      "value": "block.metal.break"
     },
-    "bulletPower": 50.0,
-    "bulletDamage": 1000.0,
-    "bulletKnockback": 5,
+    "hasGlow": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 1.0,
+    "bulletPower": 100.0,
+    "bulletDamage": 150.0,
+    "bulletKnockback": 0,
     "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "mcreator_bulletShooted.block"
+      "value": "CUSTOM:BulletSprite"
     },
     "bulletModel": "Default",
-    "customBulletModelTexture": "",
-    "onBulletHitsEntity": {
-      "name": "CyberGunBulletHitsLivingEntity"
-    }
+    "customBulletModelTexture": ""
   }
 }

@@ -22,8 +22,8 @@
     "faceShape": "SOLID",
     "name": "Block of C. Dimension",
     "specialInfo": [],
-    "hardness": 10000.0,
-    "resistance": 10000.0,
+    "hardness": 1000.0,
+    "resistance": 1000.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:ModTab"
@@ -44,7 +44,7 @@
     },
     "tickRate": 10,
     "tickRandomly": false,
-    "isReplaceable": true,
+    "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""

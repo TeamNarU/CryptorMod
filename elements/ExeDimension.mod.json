@@ -1,50 +1,66 @@
 {
-  "_fv": 2,
+  "_fv": 6,
   "_type": "dimension",
   "definition": {
     "portalFrame": {
-      "value": "mcreator_exeBlock.block"
+      "value": "CUSTOM:CyberBlock"
     },
     "portalParticles": {
-      "value": "LAVA"
+      "value": "PORTAL"
     },
+    "portalLuminance": 0.0,
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "4)4;\u002767\u0027.fg\\6.",
+    "igniterName": "Dimension Key",
     "igniterTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:ModTab"
     },
     "texture": "exeigniter",
     "portalTexture": "igniterportal",
+    "enablePortal": true,
     "biomesInDimension": [
       {
-        "value": "mcreator_exeBiome.biome"
+        "value": "CUSTOM:Exebiome"
       }
     ],
     "worldGenType": "Nether like gen",
     "mainFillerBlock": {
-      "value": "mcreator_exeBlock.block"
+      "value": "CUSTOM:Exeblock"
     },
     "secondaryFillerBlock": {
-      "value": "mcreator_exeBlock.block"
+      "value": "CUSTOM:Exeblock"
     },
     "tertiaryFillerBlock": {
-      "value": "mcreator_exeBlock.block"
+      "value": "CUSTOM:Exeblock"
     },
     "fluidBlock": {
-      "value": "Blocks.FLOWING_LAVA"
-    },
-    "oreBlock": {
-      "value": "mcreator_exeBlock.block"
+      "value": "Blocks.LAVA"
     },
     "airColor": {
-      "value": -1577058304,
-      "falpha": 0.0
+      "value": -4138753,
+      "frgbvalue": [
+        0.753,
+        0.847,
+        1.0
+      ],
+      "fvalue": [
+        0.753,
+        0.847,
+        1.0
+      ],
+      "falpha": 1.0
     },
-    "canRespawnHere": true,
+    "canRespawnHere": false,
     "hasFog": false,
+    "hasWeather": false,
     "isDark": false,
-    "hasWeather": false
+    "doesWaterVaporize": false,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "dimensionMusic": {
+      "value": ""
+    }
   }
 }

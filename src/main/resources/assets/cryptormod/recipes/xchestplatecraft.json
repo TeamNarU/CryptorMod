@@ -1,0 +1,39 @@
+{
+  "group": "cryptormod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "cryptormod:xingot"
+    },
+    "2": {
+      "item": "cryptormod:xingot"
+    },
+    "3": {
+      "item": "cryptormod:xingot"
+    },
+    "4": {
+      "item": "cryptormod:xingot"
+    },
+    "5": {
+      "item": "cryptormod:xingot"
+    },
+    "6": {
+      "item": "cryptormod:xingot"
+    },
+    "7": {
+      "item": "cryptormod:xingot"
+    },
+    "8": {
+      "item": "cryptormod:xingot"
+    }
+  },
+  "result": {
+    "item": "cryptormod:cryptorxarmorbody",
+    "count": 1
+  }
+}

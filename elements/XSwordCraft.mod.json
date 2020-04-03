@@ -1,18 +1,18 @@
 {
-  "_fv": 2,
+  "_fv": 6,
   "_type": "recipe",
   "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
     "recipeRetstackSize": 1,
+    "group": "",
     "recipeShapeless": false,
-    "recipeReturnStack": {
-      "value": "mcreator_cryptorXSword.block"
-    },
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "mcreator_cryptorBlock.block"
+        "value": "CUSTOM:XIngot"
       },
       {
         "value": ""
@@ -21,7 +21,7 @@
         "value": ""
       },
       {
-        "value": "mcreator_cryptorBlock.block"
+        "value": "CUSTOM:XIngot"
       },
       {
         "value": ""
@@ -36,13 +36,10 @@
         "value": ""
       }
     ],
-    "smeltingInputStack": {
-      "value": ""
+    "recipeReturnStack": {
+      "value": "CUSTOM:CryptorXSword"
     },
-    "smeltingReturnStack": {
-      "value": ""
-    },
-    "smeltingXPReward": 1.0,
-    "smeltingRetstackSize": 1
+    "name": "xswordcraft",
+    "namespace": "mod"
   }
 }

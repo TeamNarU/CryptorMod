@@ -93,8 +93,8 @@
     "rangedAttackItem": {
       "value": ""
     },
-    "spawnThisMob": true,
-    "doesDespawnWhenIdle": false,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,

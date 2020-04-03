@@ -1,6 +1,8 @@
 {
   "id_map": {
-    "ENTITY": 8
+    "DIMENSION": 2,
+    "ENTITY": 20,
+    "GUI": 2
   },
   "mod_elements": [
     {
@@ -142,42 +144,671 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Cmodadv",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CyberSword",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CyberBullet",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BulletSprite",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CyberCryptorMelee",
+      "type": "mob",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 9,
+        "1": 10
+      }
+    },
+    {
+      "name": "CyberGun",
+      "type": "gun",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 11
+      }
+    },
+    {
+      "name": "CyberCryptorRange",
+      "type": "mob",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 12,
+        "1": 13
+      }
+    },
+    {
+      "name": "CyberDim",
+      "type": "biome",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ExplodeChickenRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExplodeChicken",
+      "type": "mob",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 16,
+        "1": 17
+      }
+    },
+    {
+      "name": "CyberDimension",
+      "type": "dimension",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 1
+      }
+    },
+    {
+      "name": "CommonCryptorEntityDies",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Exeblock",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Exebiome",
+      "type": "biome",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Exedimension",
+      "type": "dimension",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 2
+      }
+    },
+    {
+      "name": "CheaterRange",
+      "type": "gun",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 18
+      }
+    },
+    {
+      "name": "BacterianEntityDies",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bacterian",
+      "type": "mob",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 19,
+        "1": 20
+      }
+    },
+    {
+      "name": "Cheatadv",
+      "type": "achievement",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheatProc",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HorSword",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HorSwordMobIsHitWithTool",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HorrorIngot",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "XIngot",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "XHelmetCraft",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "XHelmetCraft2",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "XChestplateCraft",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "XLeggingsCraft",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "XBootsCraft",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "XBootsCraft2",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "XSwordCraft",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "XIngotFurnace",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HorIngotSmelting",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LegFoodCraft",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheatGUI",
+      "type": "gui",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2
+      }
+    },
+    {
+      "name": "CheatCheck",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "CyberIngotA",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CyberIngotB",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ChickenDetonatorRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChickenDetonator",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DetonCraft",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CoinCraft",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HorSwordCraft",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CyberBulletCraft",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CyberBulletCraft2",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CyberBulletCraft3",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CyberBulletCraft4",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CyberBulletCraft5",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CyberBulletCraft6",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CyberBulletCraft7",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CyberBulletCraft8",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CyberBulletCraft9",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "XSwordCraft2",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "XSwordCraft3",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CSwordCraft",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CSwordCraft2",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CSwordCraft3",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CIngotSmeltA",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CIngotCraftB",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
+      "entity.cybercryptorrange.name": "Cyber Cryptor (Range)",
       "entity.commoncryptor.name": "Common Cryptor",
-      "item.legendaryfood.name": "Legendary Food",
+      "advancements.cheatadv.descr": "You f3,14cking cheater! Burn in HELL!",
+      "item.cyberbullet.name": "Cyber Bullet",
+      "advancements.cheatadv.title": "§4[Cheater]",
       "tile.defblock.name": "Block of C. Dimension",
       "item.cryptorssoul.name": "Cryptor\u0027s Soul",
-      "item.cryptorxarmorlegs.name": "Cryptor X Armor Leggings",
       "item.cryptorxarmorhelmet.name": "Cryptor X Armor Helmet",
-      "entity.cryptorx.name": "Cryptor X",
-      "item.cryptorxarmorboots.name": "Cryptor X Armor Boots",
-      "item.supertool.name": "Super Tool",
+      "entity.bacterian.name": "Bacterian",
+      "item.cyberdimension.name": "Cyber Dimension Portal Igniter",
+      "item.cybersword.name": "Cyber Sword",
+      "item.bulletsprite.name": "Bullet Sprite",
       "itemGroup.tabmodtab": "Mod Tab",
+      "item.horroringot.name": "Horror Ingot",
       "item.cryptorcoin.name": "CryptorCoin",
+      "item.cyberingota.name": "Cyber Ingot (A)",
       "item.cryptorxarmorbody.name": "Cryptor X Armor Body",
+      "item.horsword.name": "Horror Sword",
       "item.cryptorxsword.name": "Cryptor X\u0027s Sword",
-      "tile.cyberblock.name": "Cyber Block"
+      "tile.cyberblock.name": "Cyber Block",
+      "item.chickendetonator.name": "Chicken Detonator",
+      "item.xingot.name": "X Ingot",
+      "item.legendaryfood.name": "Legendary Food",
+      "item.cryptorxarmorlegs.name": "Cryptor X Armor Leggings",
+      "advancements.cmodadv.title": "CryptorMod",
+      "advancements.cmodadv.descr": "Thanks for using!",
+      "entity.cryptorx.name": "Cryptor X",
+      "item.exedimension.name": "Dimension Key",
+      "item.cyberingotb.name": "Cyber Ingot (B)",
+      "item.cryptorxarmorboots.name": "Cryptor X Armor Boots",
+      "item.cybergun.name": "Cyber Gun",
+      "item.supertool.name": "Super Tool",
+      "tile.exeblock.name": "Exeblock",
+      "item.cheaterrange.name": "Cheater Range",
+      "entity.cybercryptormelee.name": "Cyber Cryptor (Melee)",
+      "entity.explodechicken.name": "Explodable Chicken"
     },
     "en_us": {
+      "entity.cybercryptorrange.name": "Cyber Cryptor (Range)",
       "entity.commoncryptor.name": "Common Cryptor",
-      "item.legendaryfood.name": "Legendary Food",
+      "advancements.cheatadv.descr": "You f3,14cking cheater! Burn in HELL!",
+      "item.cyberbullet.name": "Cyber Bullet",
+      "advancements.cheatadv.title": "§4[Cheater]",
       "tile.defblock.name": "Block of C. Dimension",
       "item.cryptorssoul.name": "Cryptor\u0027s Soul",
-      "item.cryptorxarmorlegs.name": "Cryptor X Armor Leggings",
       "item.cryptorxarmorhelmet.name": "Cryptor X Armor Helmet",
-      "entity.cryptorx.name": "Cryptor X",
-      "item.cryptorxarmorboots.name": "Cryptor X Armor Boots",
-      "item.supertool.name": "Super Tool",
+      "entity.bacterian.name": "Bacterian",
+      "item.cyberdimension.name": "Portal Activator",
+      "item.cybersword.name": "Cyber Sword",
+      "item.bulletsprite.name": "Bullet Sprite",
       "itemGroup.tabmodtab": "Mod Tab",
+      "item.horroringot.name": "Horror Ingot",
       "item.cryptorcoin.name": "CryptorCoin",
+      "item.cyberingota.name": "Cyber Ingot (A)",
       "item.cryptorxarmorbody.name": "Cryptor X Armor Body",
+      "item.horsword.name": "Horror Sword",
       "item.cryptorxsword.name": "Cryptor X\u0027s Sword",
-      "tile.cyberblock.name": "Cyber Block"
+      "tile.cyberblock.name": "Cyber Block",
+      "item.chickendetonator.name": "Chicken Detonator",
+      "item.xingot.name": "X Ingot",
+      "item.legendaryfood.name": "Legendary Food",
+      "item.cryptorxarmorlegs.name": "Cryptor X Armor Leggings",
+      "advancements.cmodadv.title": "CryptorMod",
+      "advancements.cmodadv.descr": "Thanks for using!",
+      "entity.cryptorx.name": "Cryptor X",
+      "item.exedimension.name": "Dimension Key",
+      "item.cyberingotb.name": "Cyber Ingot (B)",
+      "item.cryptorxarmorboots.name": "Cryptor X Armor Boots",
+      "item.cybergun.name": "Cyber Gun",
+      "item.supertool.name": "Super Tool",
+      "tile.exeblock.name": "Exeblock",
+      "item.cheaterrange.name": "Cheater Range",
+      "entity.cybercryptormelee.name": "Cyber Cryptor (Melee)",
+      "entity.explodechicken.name": "Explodable Chicken"
     }
   },
   "workspaceSettings": {
@@ -195,7 +826,7 @@
     "mcreatorDependencies": [],
     "currentGenerator": "1.12.2",
     "credits": "Creator and designer - Cryptor Inc.",
-    "modElementsPackage": "com.cryptorinc.cryptormod",
+    "modElementsPackage": "com.cryptor.cryptormod",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202000213314

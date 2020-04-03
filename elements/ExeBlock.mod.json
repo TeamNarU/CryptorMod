@@ -1,5 +1,5 @@
 {
-  "_fv": 2,
+  "_fv": 6,
   "_type": "block",
   "definition": {
     "texture": "horrorblock",
@@ -19,21 +19,21 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "(h34?4\\[/]3]2\u003d(",
+    "faceShape": "SOLID",
+    "name": "Exeblock",
     "specialInfo": [],
-    "hardness": 9999.0,
-    "resistance": 9999.0,
+    "hardness": 1.0,
+    "resistance": 1000.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:ModTab"
     },
     "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
-    "hasCustomDrop": true,
     "customDrop": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
-    "dropAmount": 0,
+    "dropAmount": 1,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -43,12 +43,23 @@
       "value": "ROCK"
     },
     "tickRate": 10,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
       "value": "STONE"
     },
     "luminance": 0.0,
-    "unbreakable": true,
+    "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
@@ -59,18 +70,19 @@
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "spawnWorldTypes": [],
-    "restricPerBiome": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
-    "minGenerateHeight": 10,
-    "maxGenerateHeight": 11
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 0
   }
 }

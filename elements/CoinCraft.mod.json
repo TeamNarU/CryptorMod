@@ -1,12 +1,12 @@
 {
-  "_fv": 2,
+  "_fv": 6,
   "_type": "recipe",
   "definition": {
-    "recipeRetstackSize": 1,
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 4,
+    "group": "",
     "recipeShapeless": false,
-    "recipeReturnStack": {
-      "value": "mcreator_cryptorCoin.block"
-    },
     "recipeSlots": [
       {
         "value": ""
@@ -21,7 +21,7 @@
         "value": "Items.GOLD_INGOT"
       },
       {
-        "value": "mcreator_legFood.block"
+        "value": "CUSTOM:LegendaryFood"
       },
       {
         "value": "Items.GOLD_INGOT"
@@ -36,13 +36,10 @@
         "value": ""
       }
     ],
-    "smeltingInputStack": {
-      "value": ""
+    "recipeReturnStack": {
+      "value": "CUSTOM:CryptorCoin"
     },
-    "smeltingReturnStack": {
-      "value": ""
-    },
-    "smeltingXPReward": 1.0,
-    "smeltingRetstackSize": 1
+    "name": "coincraft",
+    "namespace": "mod"
   }
 }

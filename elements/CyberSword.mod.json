@@ -1,5 +1,5 @@
 {
-  "_fv": 2,
+  "_fv": 6,
   "_type": "tool",
   "definition": {
     "renderType": 0,
@@ -7,17 +7,17 @@
     "customModelName": "Normal",
     "name": "Cyber Sword",
     "creativeTab": {
-      "value": "mcreator_cryptorModTab.tab"
+      "value": "CUSTOM:ModTab"
     },
     "toolType": "Sword",
-    "harvestLevel": 1,
-    "efficiency": 4,
+    "harvestLevel": 0,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
     "enchantability": 2,
-    "damageVsEntity": 100,
-    "usageCount": 4000,
+    "damageVsEntity": 364.0,
+    "usageCount": 100000,
     "blocksAffected": [],
-    "onEntityHitWith": {
-      "name": "CyberSwordMobIsHitWithItem"
-    }
+    "hasGlow": false,
+    "repairItems": []
   }
 }

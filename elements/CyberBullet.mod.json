@@ -1,5 +1,5 @@
 {
-  "_fv": 2,
+  "_fv": 6,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -7,17 +7,17 @@
     "customModelName": "Normal",
     "name": "Cyber Bullet",
     "creativeTab": {
-      "value": "mcreator_cryptorModTab.tab"
+      "value": "CUSTOM:ModTab"
     },
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
-    "damageCount": 1,
+    "damageCount": 0,
     "destroyAnyBlock": false,
     "stayInGridWhenCrafting": false,
-    "canBeDroppedAsGrassSeed": false,
-    "droppedAsGrassSeedProbability": 5,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 2.0,
     "specialInfo": [],
     "hasGlow": false
   }

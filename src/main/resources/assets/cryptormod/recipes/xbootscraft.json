@@ -1,0 +1,26 @@
+{
+  "group": "cryptormod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "cryptormod:xingot"
+    },
+    "2": {
+      "item": "cryptormod:xingot"
+    },
+    "3": {
+      "item": "cryptormod:xingot"
+    },
+    "5": {
+      "item": "cryptormod:xingot"
+    }
+  },
+  "result": {
+    "item": "cryptormod:cryptorxarmorboots",
+    "count": 1
+  }
+}

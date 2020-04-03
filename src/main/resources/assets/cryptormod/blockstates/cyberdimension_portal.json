@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "cryptormod:cyberdimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "cryptormod:cyberdimension_portal_ns"
+    },
+    "inventory": {
+      "model": "cryptormod:cyberdimension_portal_ns"
+    }
+  }
+}

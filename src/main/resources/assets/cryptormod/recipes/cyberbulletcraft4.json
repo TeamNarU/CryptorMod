@@ -1,0 +1,16 @@
+{
+  "group": "cryptormod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "cryptormod:cyberingotb"
+    }
+  },
+  "result": {
+    "item": "cryptormod:cyberbullet",
+    "count": 4
+  }
+}
