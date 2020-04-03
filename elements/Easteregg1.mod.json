@@ -1,0 +1,25 @@
+{
+  "_fv": 6,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "You IDIOT! You are hacker!!!1!1!",
+    "achievementDescription": "You found an error! Please talk to the developers! They adds more ways to find any errors.",
+    "achievementIcon": {
+      "value": "Blocks.COMMAND_BLOCK"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 1,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:Cmodadv"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"24\" y=\"36\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

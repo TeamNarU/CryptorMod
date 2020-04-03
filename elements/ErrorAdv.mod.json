@@ -2,10 +2,10 @@
   "_fv": 6,
   "_type": "achievement",
   "definition": {
-    "achievementName": "You hacked!",
-    "achievementDescription": "Hackers will make you useful! [ '*v*' ]",
+    "achievementName": "Error!",
+    "achievementDescription": "C:\\Users\\User\\AppData\\Local\\CryptorMod\\cmod-crash-11-07-2019.txt",
     "achievementIcon": {
-      "value": "Blocks.REPEATING_COMMAND_BLOCK"
+      "value": "Blocks.BARRIER"
     },
     "background": "Default",
     "disableDisplay": false,
@@ -20,6 +20,6 @@
     "parent": {
       "value": "CUSTOM:Cmodadv"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"45\" y=\"46\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"32\" y=\"44\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
   }
 }

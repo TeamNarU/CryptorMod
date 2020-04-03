@@ -33,6 +33,7 @@ import net.minecraft.client.model.ModelBiped;
 import java.util.Iterator;
 import java.util.ArrayList;
 
+import com.cryptor.cryptormod.procedure.ProcedureCryptorXEntityDies;
 import com.cryptor.cryptormod.item.ItemLegendaryFood;
 import com.cryptor.cryptormod.item.ItemCryptorXSword;
 import com.cryptor.cryptormod.item.ItemCryptorXArmor;
@@ -141,6 +142,20 @@ public class EntityCryptorX extends ElementsCryptorMod.ModElement {
 			if (source == DamageSource.LIGHTNING_BOLT)
 				return false;
 			return super.attackEntityFrom(source, amount);
+		}
+
+		@Override
+		public void onDeath(DamageSource source) {
+			super.onDeath(source);
+			int x = (int) this.posX;
+			int y = (int) this.posY;
+			int z = (int) this.posZ;
+			Entity entity = this;
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureCryptorXEntityDies.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override

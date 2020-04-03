@@ -1,21 +1,21 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:repeating_command_block"
+      "item": "cryptormod:cryptorxsword"
     },
     "title": {
-      "translate": "advancements.hiddenach.title"
+      "translate": "advancements.xdiedadv.title"
     },
     "description": {
-      "translate": "advancements.hiddenach.descr"
+      "translate": "advancements.xdiedadv.descr"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "criteria": {
-    "hiddenach": {
+    "xdiedadv": {
       "trigger": "minecraft:impossible"
     }
   },

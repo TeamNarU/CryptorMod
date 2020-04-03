@@ -1,7 +1,7 @@
 {
   "id_map": {
     "DIMENSION": 2,
-    "ENTITY": 20,
+    "ENTITY": 22,
     "GUI": 2
   },
   "mod_elements": [
@@ -729,49 +729,118 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Easteregg1",
+      "type": "achievement",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "YouhackerCommandExecuted",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Youhacker",
+      "type": "command",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Xdiedadv",
+      "type": "achievement",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CryptorXEntityDies",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ErrorAdv",
+      "type": "achievement",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ErrorcmdCommandExecuted",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Errorcmd",
+      "type": "command",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Hiddenach",
+      "type": "achievement",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Merchant",
+      "type": "mob",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 21,
+        "1": 22
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "ru_ru": {
-      "entity.cybercryptorrange.name": "Cyber Cryptor (Range)",
-      "entity.commoncryptor.name": "Common Cryptor",
-      "advancements.cheatadv.descr": "You f3,14cking cheater! Burn in HELL!",
-      "item.cyberbullet.name": "Cyber Bullet",
-      "advancements.cheatadv.title": "§4[Cheater]",
-      "tile.defblock.name": "Block of C. Dimension",
-      "item.cryptorssoul.name": "Cryptor\u0027s Soul",
-      "item.cryptorxarmorhelmet.name": "Cryptor X Armor Helmet",
-      "entity.bacterian.name": "Bacterian",
-      "item.cyberdimension.name": "Cyber Dimension Portal Igniter",
-      "item.cybersword.name": "Cyber Sword",
-      "item.bulletsprite.name": "Bullet Sprite",
-      "itemGroup.tabmodtab": "Mod Tab",
-      "item.horroringot.name": "Horror Ingot",
-      "item.cryptorcoin.name": "CryptorCoin",
-      "item.cyberingota.name": "Cyber Ingot (A)",
-      "item.cryptorxarmorbody.name": "Cryptor X Armor Body",
-      "item.horsword.name": "Horror Sword",
-      "item.cryptorxsword.name": "Cryptor X\u0027s Sword",
-      "tile.cyberblock.name": "Cyber Block",
-      "item.chickendetonator.name": "Chicken Detonator",
-      "item.xingot.name": "X Ingot",
-      "item.legendaryfood.name": "Legendary Food",
-      "item.cryptorxarmorlegs.name": "Cryptor X Armor Leggings",
-      "advancements.cmodadv.title": "CryptorMod",
-      "advancements.cmodadv.descr": "Thanks for using!",
-      "entity.cryptorx.name": "Cryptor X",
-      "item.exedimension.name": "Dimension Key",
-      "item.cyberingotb.name": "Cyber Ingot (B)",
-      "item.cryptorxarmorboots.name": "Cryptor X Armor Boots",
-      "item.cybergun.name": "Cyber Gun",
-      "item.supertool.name": "Super Tool",
-      "tile.exeblock.name": "Exeblock",
-      "item.cheaterrange.name": "Cheater Range",
-      "entity.cybercryptormelee.name": "Cyber Cryptor (Melee)",
-      "entity.explodechicken.name": "Explodable Chicken"
-    },
     "en_us": {
       "entity.cybercryptorrange.name": "Cyber Cryptor (Range)",
       "entity.commoncryptor.name": "Common Cryptor",
@@ -785,29 +854,38 @@
       "item.cyberdimension.name": "Portal Activator",
       "item.cybersword.name": "Cyber Sword",
       "item.bulletsprite.name": "Bullet Sprite",
+      "advancements.xdiedadv.descr": "Defeat a Bossy Cryptor X",
       "itemGroup.tabmodtab": "Mod Tab",
       "item.horroringot.name": "Horror Ingot",
+      "advancements.easteregg1.title": "You IDIOT! You are hacker!!!1!1!",
       "item.cryptorcoin.name": "CryptorCoin",
       "item.cyberingota.name": "Cyber Ingot (A)",
       "item.cryptorxarmorbody.name": "Cryptor X Armor Body",
       "item.horsword.name": "Horror Sword",
       "item.cryptorxsword.name": "Cryptor X\u0027s Sword",
       "tile.cyberblock.name": "Cyber Block",
+      "advancements.hiddenach.descr": "Hackers will make you useful! [ \u0027*v*\u0027 ]",
+      "advancements.erroradv.descr": "C:\\Users\\User\\AppData\\Local\\CryptorMod\\cmod-crash-11-07-2019.txt",
       "item.chickendetonator.name": "Chicken Detonator",
       "item.xingot.name": "X Ingot",
+      "advancements.easteregg1.descr": "You found an error! Please talk to the developers! They adds more ways to find any errors.",
       "item.legendaryfood.name": "Legendary Food",
+      "advancements.xdiedadv.title": "Defeated!",
       "item.cryptorxarmorlegs.name": "Cryptor X Armor Leggings",
       "advancements.cmodadv.title": "CryptorMod",
-      "advancements.cmodadv.descr": "Thanks for using!",
+      "advancements.cmodadv.descr": "Thanks for using that mod! :)",
+      "advancements.erroradv.title": "Error!",
       "entity.cryptorx.name": "Cryptor X",
       "item.exedimension.name": "Dimension Key",
       "item.cyberingotb.name": "Cyber Ingot (B)",
+      "entity.merchant.name": "Merchant",
       "item.cryptorxarmorboots.name": "Cryptor X Armor Boots",
       "item.cybergun.name": "Cyber Gun",
       "item.supertool.name": "Super Tool",
       "tile.exeblock.name": "Exeblock",
       "item.cheaterrange.name": "Cheater Range",
       "entity.cybercryptormelee.name": "Cyber Cryptor (Melee)",
+      "advancements.hiddenach.title": "You hacked!",
       "entity.explodechicken.name": "Explodable Chicken"
     }
   },

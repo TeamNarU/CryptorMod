@@ -2,70 +2,70 @@
   "_fv": 6,
   "_type": "mob",
   "definition": {
-    "mobName": "Cryptor X",
+    "mobName": "Merchant",
     "mobLabel": "",
-    "mobModelTexture": "wannacryptor.png",
+    "mobModelTexture": "merchant.png",
     "mobModelName": "Biped",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
-    "armorBaseValue": 5.0,
+    "armorBaseValue": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
       "value": -1,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -16777216,
+      "value": -256,
       "falpha": 0.0
     },
     "creativeTab": {
       "value": "CUSTOM:ModTab"
     },
-    "isBoss": true,
-    "bossBarColor": "WHITE",
+    "isBoss": false,
+    "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": "CUSTOM:CryptorXSword"
+      "value": ""
     },
     "equipmentOffHand": {
       "value": ""
     },
     "equipmentHelmet": {
-      "value": "CUSTOM:CryptorXArmor.helmet"
+      "value": ""
     },
     "equipmentBody": {
-      "value": "CUSTOM:CryptorXArmor.body"
+      "value": ""
     },
     "equipmentLeggings": {
-      "value": "CUSTOM:CryptorXArmor.legs"
+      "value": ""
     },
     "equipmentBoots": {
-      "value": "CUSTOM:CryptorXArmor.boots"
+      "value": ""
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 100,
-    "movementSpeed": 0.5,
-    "trackingRange": 16,
-    "health": 10000,
-    "xpAmount": 1337,
+    "attackStrength": 0,
+    "movementSpeed": 0.3,
+    "trackingRange": 64,
+    "health": 20,
+    "xpAmount": 5,
     "waterMob": false,
     "flyingMob": false,
     "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "immuneToArrows": false,
     "immuneToFallDamage": false,
     "immuneToCactus": false,
-    "immuneToDrowning": true,
-    "immuneToLightning": true,
-    "immuneToPotions": true,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
     "immuneToPlayer": false,
     "mobDrop": {
-      "value": "CUSTOM:LegendaryFood"
+      "value": ""
     },
     "livingSound": {
       "value": ""
@@ -84,12 +84,9 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
-    "whenMobDies": {
-      "name": "CryptorXEntityDies"
-    },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"126\" y=\"82\"><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"><next><block type=\"leap_at_target\"><field name=\"speed\">0.8</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"><next><block type=\"leap_at_target\"><field name=\"speed\">0.8</field><next><block type=\"panic_when_attacked\"><field name=\"speed\">1.2</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "breedTriggerItems": [],
     "ranged": false,
@@ -100,8 +97,8 @@
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 1,
-    "maxNumberOfMobsPerGroup": 3,
+    "minNumberOfMobsPerGroup": 3,
+    "maxNumberOfMobsPerGroup": 30,
     "restrictionBiomes": [],
     "spawnInDungeons": false
   }

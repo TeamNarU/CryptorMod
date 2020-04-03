@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:repeating_command_block"
+      "item": "minecraft:barrier"
     },
     "title": {
-      "translate": "advancements.hiddenach.title"
+      "translate": "advancements.erroradv.title"
     },
     "description": {
-      "translate": "advancements.hiddenach.descr"
+      "translate": "advancements.erroradv.descr"
     },
     "frame": "task",
     "show_toast": true,
@@ -15,7 +15,7 @@
     "hidden": true
   },
   "criteria": {
-    "hiddenach": {
+    "erroradv": {
       "trigger": "minecraft:impossible"
     }
   },

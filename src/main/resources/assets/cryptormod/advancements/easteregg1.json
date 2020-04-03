@@ -1,21 +1,21 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:repeating_command_block"
+      "item": "minecraft:command_block"
     },
     "title": {
-      "translate": "advancements.hiddenach.title"
+      "translate": "advancements.easteregg1.title"
     },
     "description": {
-      "translate": "advancements.hiddenach.descr"
+      "translate": "advancements.easteregg1.descr"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
   },
   "criteria": {
-    "hiddenach": {
+    "easteregg1": {
       "trigger": "minecraft:impossible"
     }
   },

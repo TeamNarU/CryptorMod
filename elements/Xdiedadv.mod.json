@@ -1,0 +1,25 @@
+{
+  "_fv": 6,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Defeated!",
+    "achievementDescription": "Defeat a Bossy Cryptor X",
+    "achievementIcon": {
+      "value": "CUSTOM:CryptorXSword"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 1,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:Cmodadv"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"32\" y=\"59\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

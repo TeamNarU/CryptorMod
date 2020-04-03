@@ -1,11 +1,10 @@
 {
-  "_fv": 2,
+  "_fv": 6,
   "_type": "command",
   "definition": {
     "commandName": "you-hacker-you-idiot",
-    "commandDescription": "Try enter it to console!",
     "onCommandExecuted": {
-      "name": "YouHackerCommandExecuted"
+      "name": "YouhackerCommandExecuted"
     }
   }
 }

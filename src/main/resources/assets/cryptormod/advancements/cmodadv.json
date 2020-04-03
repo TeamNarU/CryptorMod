@@ -17,7 +17,7 @@
   },
   "criteria": {
     "cmodadv": {
-      "trigger": "minecraft:impossible"
+      "trigger": "minecraft:tick"
     }
   },
   "rewards": {
