@@ -1,6 +1,6 @@
 # CryptorMod
 A Minecraft mod that adds Cryptor (common) and Cryptor X (Boss) and some stuff. 
-
+========================================================================
 Adds:
 - Common Cryptor
 - Cryptor X (boss)
@@ -8,7 +8,7 @@ Adds:
 - Legendary food
 - Cryptor X's armor
 - ... and other.
-
+========================================================================
 ChangeLog:
 
 --1.9.8.1
@@ -29,7 +29,7 @@ ChangeLog:
 - Added a new arms. 
 
 --2.0.1
-- Added Merchant (in beta testing)
+- Added Merchant (in the beta testing)
 - Added An Easter Egg
 
 --2.1.0
@@ -45,11 +45,10 @@ ChangeLog:
 - Added a new dimension
 - Added a new sword
 
+=============================================================================
 Link for download:
 https://sites.google.com/view/cryptor-inc/mods/cryptormod
-
-P. S. In this repository a 1.9.8.1 source code. 
-
+=============================================================================
 (c) CryptorMod, Cryptor, a "W with C in the top" logo are a property of Cryptor Inc and secured with copyright laws. 
 
-<c> 2014-202X Cryptor Inc.
+(c) 2014-202X Cryptor Inc.
