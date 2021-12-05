@@ -54,6 +54,7 @@ https://sites.google.com/view/cryptor-inc/mods/cryptormod
 
 -------------------------------------------------------------
 
-(c) CryptorMod, Cryptor, a "W with C in the top" logo are a property of Cryptor Inc and secured with copyright laws. 
+(c) CryptorMod, Cryptor, a "W with C in the top" logo are a property of Cryptor Inc (and/or Team NarU) and secured with copyright laws. 
 
 (c) 2014-202X Cryptor Inc.
+(c) '21 Team NarU, LLC
